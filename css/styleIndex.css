@@ -1,160 +1,11 @@
-@import "reset.css";
-
-a {
-    text-decoration: none;
-}
+@import "for_all.css";
 @media screen and (min-width: 480px){
-    header {
-        background-color: #eef1d8;
-        width: 100vw;
-        height: 125px;
-        border-bottom: 2px solid var(--text);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        z-index: 5;
-        top: 0;
-    }
-
-    .phone > a {
-        text-align: center;
-        color: var(--text);
-        font-size: 16px;
-        position: relative;
-        right: 105px;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .head {
-        position: relative;
-        left: 105px;
-        display: flex;
-        gap: 61px;
-    }
-
-    .logo {
-        width: 253px;
-        height: 90px;
-        display: flex;
-        align-items: center;
-        font-size: 32px;
-        color: var(--text);
-        font-family: "Syncopate", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    .logoMobile {
-        display: none;
-    }
-
-    footer {
-        background-color: #eef1d8;
-        width: 100vw;
-        height: 119px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 14px;
-    }
-
-    .fContent {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: var(--text);
-        font-size: 14px;
-        width: 100%;
-        padding-left: 98px;
-        padding-right: 98px;
-    }
-
-    .contactLeft {
-        display: flex;
-        align-items: center;
-        gap: 83px;
-    }
-
-    .contactRight {
-        display: flex;
-        gap: 19px;
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .contacts {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 81px;
-    }
-
-    .fLinks {
-        width: 197px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .fLinks > a:link {
-        color: var(--accent);
-    }
-
-    .fLinks > a:visited {
-        color: #8AC9AF;
-    }
-
-
-    .navigation {
-        display: flex;
-        align-items: center;
-        font-size: 16px;
-        color: var(--text);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .navigation > a:visited {
-        color: var(--text);
-    }
-
-    .pageL {
-        border-right: 1px solid var(--accent);
-        height: 70px;
-        display: flex;
-        align-items: center;
-        padding-right: 57px;
-    }
-
-    .pageR {
-        border-left: 1px solid var(--accent);
-        height: 70px;
-        display: flex;
-        align-items: center;
-        padding-left: 57px;
-    }
-
-    main {
-        margin-top: 230px;
-        margin-bottom: 116px;
-    }
-
     .main1 {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 90px;
     }
-
     .saleButton {
         width: 330px;
         height: 330px;
@@ -171,11 +22,9 @@ a {
         font-weight: 700;
         font-style: normal;
     }
-
     .saleButton:hover {
         background-color: #8AC9AF;
     }
-
     .sureBlock {
         color: var(--text);
         font-size: 32px;
@@ -188,14 +37,12 @@ a {
         flex-direction: column;
         gap: 64px;
     }
-
     .sureWords {
         margin-right: 134px;
         font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         font-style: normal;
     }
-
     .sureButton {
         margin-left: 214px;
         width: 228px;
@@ -210,11 +57,9 @@ a {
         font-weight: 400;
         font-style: normal;
     }
-
     .sureButton:hover {
         background-color: #8AC9AF;
     }
-
     .main2 {
         margin-top: 116px;
         display: flex;
@@ -227,7 +72,6 @@ a {
         font-weight: 400;
         font-style: normal;
     }
-
     .brands {
         display: flex;
         flex-direction: column;
@@ -238,268 +82,13 @@ a {
         border: 2px solid #6FB581;
         border-radius: 10px;
     }
-
     .brandLine {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 140px;
     }
-    .dropdown {
-        display: none;
-    }
 }
 @media screen and (max-width: 480px) {
-    header {
-        background-color: #eef1d8;
-        width: 100vw;
-        height: 70px;
-        border-bottom: 1px solid var(--text);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        z-index: 5;
-        top: 0;
-    }
-    .phone{
-        display: none;
-    }
     
-    .head {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-    }
-    .logo{
-        display: none;
-    }
-    .logoMobile {
-        display: flex;
-        width: 253px;
-        height: 90px;
-        display: flex;
-        align-items: center;
-        font-size: 20px;
-        color: var(--text);
-        font-family: "Syncopate", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    
-    footer {
-        background-color: #eef1d8;
-        width: 100vw;
-        height: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        color: var(--text);
-    }
-    
-    .contactLeft {
-        display: flex;
-        align-items: center;
-    }
-    
-    .contactRight {
-        display: flex;
-        gap: 19px;
-    }
-    
-    .socials {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .socialIcon {
-        width: 24px;
-        height: 16px;
-    }
-    .contacts {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 10px;
-        gap: 10px;
-    }
-    
-    .fLinks {
-        display: flex;
-        gap: 10px;
-    }
-    
-    .fLinks > a:link {
-        color: var(--accent);
-    }
-    
-    .fLinks > a:visited {
-        color: #8AC9AF;
-    }
-    
-    
-    .navigation {
-        display: none;
-    }
-    
-    main {
-        margin-top: 120px;
-        margin-bottom: 30px;
-    }
-    .dropbtn {
-        background-color: #eef1d8;
-        color: var(--text);
-        border-radius: 10px;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-      }
-      
-      /* The container <div> - needed to position the dropdown content */
-      .dropdown {
-        position: relative;
-        display: inline-block;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      /* Dropdown Content (Hidden by Default) */
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        right: 0;
-      }
-      
-      /* Links inside the dropdown */
-      .dropdown-content a {
-        color: var(--text);
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-      
-      /* Change color of dropdown links on hover */
-      .dropdown-content a:hover {background-color: #f1f1f1}
-      
-      /* Show the dropdown menu on hover */
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      
-      /* Change the background color of the dropdown button when the dropdown content is shown */
-      .dropdown:hover .dropbtn {
-        background-color: #8AC9AF;
-      }
 }
-/*
-.ibm-plex-sans-thin {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-extralight {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-light {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-regular {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-medium {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-semibold {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-bold {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-  
-.ibm-plex-sans-thin-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-  
-.ibm-plex-sans-extralight-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-}
-  
-.ibm-plex-sans-light-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-  
-.ibm-plex-sans-regular-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-  
-.ibm-plex-sans-medium-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-  
-.ibm-plex-sans-semibold-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-}
-  
-.ibm-plex-sans-bold-italic {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.syncopate-regular {
-  font-family: "Syncopate", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.syncopate-bold {
-  font-family: "Syncopate", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-*/
