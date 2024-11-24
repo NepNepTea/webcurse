@@ -46,7 +46,7 @@
         text-align: center;
     }
     .change {
-        color: #8AC9AF;
+        color: var(--border);
     }
     .priceBlock {
         display: flex;
@@ -78,7 +78,7 @@
     }
     .constHeader {
         width: 1570px;
-        border-bottom: 2px solid #6FB581;
+        border-bottom: 2px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
         font-family: "IBM Plex Sans", sans-serif;
@@ -164,7 +164,7 @@
         border-bottom: 1px solid var(--accent);
     }
     .change {
-        color: #8AC9AF;
+        color: var(--border);
     }
     .info {
         width: 82%;
@@ -187,7 +187,7 @@
     }   
     .constHeader {
         width: 70vw;
-        border-bottom: 1px solid #6FB581;
+        border-bottom: 1px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
         font-family: "IBM Plex Sans", sans-serif;

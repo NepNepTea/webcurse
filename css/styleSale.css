@@ -5,7 +5,7 @@
         font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-style: normal;
-        color: #1D484E;
+        color: var(--text);
         font-size: 32px;
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@
     }
     .saleHeader {
         width: 1570px;
-        border-bottom: 2px solid #6FB581;
+        border-bottom: 2px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
     }
@@ -27,7 +27,7 @@
         justify-content: center;
         align-items: center;
         gap: 175px;
-        background-color: #EEF1D8;
+        background-color: var(--backColor);
         width: 1080px;
         border-radius: 90px;
         height: 180px;
@@ -35,4 +35,42 @@
     }
 }
 @media screen and (max-width: 480px) {
+    .salesBlock {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--text);
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .saleHeader {
+        width: 70vw;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 20px;
+        padding-left: 40px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--text);
+        font-size: 16px;
+    }
+    .oneSale {
+        width: 70vw;
+    }
+    .wait {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--backColor);
+        width: 70vw;
+        border-radius: 30px;
+        padding: 8px;
+    }
+    .hourGlass{
+        width: 40px;
+        height: 40px;
+    }
 }

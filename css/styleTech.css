@@ -39,7 +39,7 @@
     }
     .catalogHeader {
         width: 1570px;
-        border-bottom: 2px solid #6FB581;
+        border-bottom: 2px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
         font-family: "IBM Plex Sans", sans-serif;
@@ -49,7 +49,7 @@
         font-size: 32px;
     }
     .card {
-        border: 2px solid #6FB581;
+        border: 2px solid var(--border);
         border-radius: 10px;
         width: 1460px;
         height: 450px;
@@ -63,7 +63,7 @@
         font-weight: 400;
         font-style: normal;
         color: var(--text);
-        border-bottom: 2px solid #6FB581;
+        border-bottom: 2px solid var(--border);
     }
     .brand {
         width: 210px;
@@ -150,7 +150,7 @@
     }
     .catalogHeader {
         width: 70vw;
-        border-bottom: 1px solid #6FB581;
+        border-bottom: 1px solid var(--border);
         padding-bottom: 10px;
         padding-left: 10px;
         font-family: "IBM Plex Sans", sans-serif;
@@ -161,7 +161,7 @@
         margin-top: 10px;
     }
     .card {
-        border: 1px solid #6FB581;
+        border: 1px solid var(--border);
         border-radius: 10px;
         width: 70vw;
         display: flex;
@@ -195,7 +195,7 @@
         font-weight: 400;
         font-style: normal;
         color: var(--text);
-        border-bottom: 1px solid #6FB581;
+        border-bottom: 1px solid var(--border);
     }
     .thirdBlock {
         display: flex;

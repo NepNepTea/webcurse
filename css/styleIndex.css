@@ -1,9 +1,9 @@
 @import "for_all.css";
 .saleButton:hover {
-    background-color: #8AC9AF;
+    background-color: var(--border);
 }
 .sureButton:hover {
-    background-color: #8AC9AF;
+    background-color: var(--border);
 }
 @media screen and (min-width: 480px){
     .main1 {
@@ -79,7 +79,7 @@
         gap: 20px;
         width: 1135px;
         height: 434px;
-        border: 2px solid #6FB581;
+        border: 2px solid var(--border);
         border-radius: 10px;
     }
     .brandLine {
@@ -168,7 +168,7 @@
         justify-content: center;
         gap: 10px;
         width: 70vw;
-        border: 1px solid #6FB581;
+        border: 1px solid var(--border);
         border-radius: 10px;
         padding: 10px;
     }
