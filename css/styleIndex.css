@@ -1,4 +1,10 @@
 @import "for_all.css";
+.saleButton:hover {
+    background-color: #8AC9AF;
+}
+.sureButton:hover {
+    background-color: #8AC9AF;
+}
 @media screen and (min-width: 480px){
     .main1 {
         display: flex;
@@ -21,9 +27,6 @@
         font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
         font-style: normal;
-    }
-    .saleButton:hover {
-        background-color: #8AC9AF;
     }
     .sureBlock {
         color: var(--text);
@@ -57,9 +60,6 @@
         font-weight: 400;
         font-style: normal;
     }
-    .sureButton:hover {
-        background-color: #8AC9AF;
-    }
     .main2 {
         margin-top: 116px;
         display: flex;
@@ -88,7 +88,116 @@
         align-items: center;
         gap: 140px;
     }
+    .ofish{
+        display: none;
+    }
+    .wfish{
+        display: none;
+    }
 }
 @media screen and (max-width: 480px) {
-    
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .saleButton {
+        width: 50vw;
+        border: 1px solid var(--text);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        color: var(--text);
+        box-shadow: var(--text) 0 2px 6px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding: 8px;
+    }
+    .saleIcon{
+        width: 80px;
+    }
+    .sureBlock {
+        width: 90vw;
+        color: var(--text);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        background-color: var(--backColor);
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .sureWords {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .sureButton {
+        border: 1px solid var(--text);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: var(--text) 0 2px 6px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 4px;
+    }
+    .main2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-size: 16;
+        color: var(--text);
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .brands {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 70vw;
+        border: 1px solid #6FB581;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .brandLine {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .singleBrand{
+        width: 166px;
+        height: 86px;
+    }
+    .ofish{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 26px;
+    }
+    .wfish{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        left: 26px;
+    }
 }
