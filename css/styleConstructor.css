@@ -103,6 +103,25 @@
         width: 190px;
         border-bottom: 2px solid var(--accent);
     }
+    .warnings{
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #CF2727;
+        background-color: #FFF8C5;
+        font-size: 32px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        gap: 60px;
+    }
+    .oneError{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
 }
 @media screen and (max-width: 480px) {
     .constructor {
@@ -219,5 +238,28 @@
     } 
     .finalNumbers {
         border-bottom: 1px solid var(--accent);
+    }
+    .warnings{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #CF2727;
+        background-color: #FFF8C5;
+        font-size: 12px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 4px;
+        gap: 10px;
+    }
+    .oneError{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .errorIcon{
+        width: 16px;
+        height: 16px;
     }
 }
