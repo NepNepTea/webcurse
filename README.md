@@ -1,2 +1,0 @@
-AMOGUS
-Neco-Arc

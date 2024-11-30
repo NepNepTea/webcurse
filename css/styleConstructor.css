@@ -1,4 +1,9 @@
 @import "for_all.css";
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 @media screen and (min-width: 480px){
     .constructor {
         display: flex;
@@ -23,13 +28,9 @@
         justify-content: center;
         align-items: center;
         gap: 26px;
-        color: var(--text);
     }
     .componentName {
         background-color: var(--backColor);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 32px;
         width: 82%;
         border-radius: 10px;
@@ -37,9 +38,6 @@
     }
     .productName {
         background-color: var(--backColor);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 20px;
         width: 82%;
         border-radius: 10px;
@@ -59,10 +57,7 @@
     .info {
         width: 82%;
         font-size: 16px;
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
-        color: var(--text);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -70,9 +65,7 @@
     }
     .addButton {
         border-bottom: 2px solid var(--accent);
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
         font-size: 32px;
         padding-bottom: 26px;
     }
@@ -81,10 +74,8 @@
         border-bottom: 2px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
         font-style: normal;
-        color: var(--text);
         font-size: 32px;
     }
     .product {
@@ -92,7 +83,6 @@
     }
     .costBlock{
         font-size: 32px;
-        color: var(--text);
     }
     .finalCost {
         width: 336px;
@@ -112,9 +102,6 @@
         color: #CF2727;
         background-color: #FFF8C5;
         font-size: 32px;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         gap: 60px;
     }
     .oneError{
@@ -152,9 +139,6 @@
     }   
     .componentName {
         background-color: var(--backColor);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 14px;
         width: 82%;
         border-radius: 10px;
@@ -166,9 +150,6 @@
     }
     .productName {
         background-color: var(--backColor);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 14px;
         width: 82%;
         border-radius: 10px;
@@ -188,9 +169,7 @@
     .info {
         width: 82%;
         font-size: 12px;
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
         color: var(--text);
         display: flex;
         flex-direction: column;
@@ -198,9 +177,7 @@
     }    
     .addButton {
         border-bottom: 1px solid var(--accent);
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
         font-size: 16px;
         padding-bottom: 10px;
     }   
@@ -209,10 +186,6 @@
         border-bottom: 1px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: var(--text);
         font-size: 16px;
     }    
     .product {
@@ -221,14 +194,10 @@
     .costBlock {
         width: 200px;
         font-size: 16px;
-        color: var(--text);
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         border: 1px solid var(--text);
         border-radius: 10px;
     }
@@ -247,9 +216,6 @@
         color: #CF2727;
         background-color: #FFF8C5;
         font-size: 12px;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         padding: 4px;
         gap: 10px;
     }

@@ -1,4 +1,9 @@
 @import "for_all.css";
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .saleButton:hover {
     background-color: var(--border);
 }
@@ -22,14 +27,10 @@
         justify-content: space-evenly;
         align-items: center;
         font-size: 32px;
-        color: var(--text);
         box-shadow: var(--text) 0 3px 8px;
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
     }
     .sureBlock {
-        color: var(--text);
         font-size: 32px;
         background-image: url("../images/fishes.svg");
         width: 736px;
@@ -42,9 +43,7 @@
     }
     .sureWords {
         margin-right: 134px;
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
     }
     .sureButton {
         margin-left: 214px;
@@ -56,9 +55,6 @@
         justify-content: center;
         align-items: center;
         box-shadow: var(--text) 0 3px 8px;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
     }
     .main2 {
         margin-top: 116px;
@@ -67,10 +63,6 @@
         align-items: center;
         gap: 20px;
         font-size: 32px;
-        color: var(--text);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
     }
     .brands {
         display: flex;
@@ -112,11 +104,8 @@
         justify-content: space-around;
         align-items: center;
         font-size: 16px;
-        color: var(--text);
         box-shadow: var(--text) 0 2px 6px;
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
         padding: 8px;
     }
     .saleIcon{
@@ -124,7 +113,6 @@
     }
     .sureBlock {
         width: 90vw;
-        color: var(--text);
         font-size: 16px;
         display: flex;
         align-items: center;
@@ -135,9 +123,7 @@
         border-radius: 10px;
     }
     .sureWords {
-        font-family: "IBM Plex Sans", sans-serif;
         font-weight: 700;
-        font-style: normal;
     }
     .sureButton {
         border: 1px solid var(--text);
@@ -146,9 +132,6 @@
         justify-content: center;
         align-items: center;
         box-shadow: var(--text) 0 2px 6px;
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         padding: 4px;
     }
     .main2 {
@@ -157,10 +140,6 @@
         align-items: center;
         gap: 20px;
         font-size: 16;
-        color: var(--text);
-        font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
     }
     .brands {
         display: flex;
