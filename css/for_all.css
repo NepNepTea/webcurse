@@ -130,6 +130,9 @@ a {text-decoration: none;}
     }
 }
 @media screen and (max-width: 480px) {
+    .user{
+        display: none;
+    }
     header {
         background-color: #eef1d8;
         width: 100vw;
