@@ -11,6 +11,7 @@
     --accent: #EB7149;
     --backColor: #EEF1D8;
     --border: #6FB581;
+    --danger: #CF2727;
 }
 a {text-decoration: none;}
 @media screen and (min-width: 480px){

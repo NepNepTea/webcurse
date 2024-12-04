@@ -4,8 +4,68 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (min-width: 480px){
+    .userInfo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid var(--text);
+        border-radius: 10px;
+        padding: 30px;
+        width: 30vw;
+    }
+    .orders{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .order{
+        border-bottom: 2px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+        width: 80vw;
+    }
+    .infoLine{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .delete{
+        color: var(--danger);
+        border: 2px solid var(--danger);
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: 700;
+    }
 
+    .container {
+        display: flex;
+        width: 80vw;
+    }
+    .status{
+        color: var(--border);
+        font-size: 32px;
+    }
+    .number{
+        color: var(--accent);
+        font-size: 32px;
+    }
+    .cost{
+        font-size: 32px;
+    }
+    .cancel{
+        color: var(--danger);
+        font-weight: 700;
+    }
 }
 @media screen and (max-width: 480px) {
 

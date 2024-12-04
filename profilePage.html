@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Профиль</title>
     <link rel="icon" href="images/favicon.png">
-    <link rel="stylesheet" href="css/styleTech.css">
+    <link rel="stylesheet" href="css/styleProfile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
@@ -42,31 +42,31 @@
     </div>
 </header>
 <main>
-    <div>
+    <div class="userInfo">
         <p>имяПользователя</p>
         <p>pochta@pochta.ru</p>
     </div>
-    <div>
-        <h1>Мои заказы</h1>
+    <h1>Мои заказы</h1>
+    <div class="orders">
         <div class="order">
-            <div>
-                <div><p>Заказ</p><p>№ 6666666666</p></div>
-                <div><p>Статус</p><p>Готов</p></div>
+            <div class="infoLine">
+                <div class="infoLine"><p>Заказ</p><p class="number">№ 6666666666</p></div>
+                <div class="infoLine"><p>Статус</p><p class="status">Готов</p></div>
             </div>
-            <div><p>Сумма</p><p>6 666 Руб</p></div>
-            <div><a>отменить заказ</a></div>
+            <div class="infoLine"><p>Сумма</p><p class="cost">6 666 Руб</p></div>
+            <div class="infoLine"><a href="#" class="cancel">отменить заказ</a></div>
         </div>
         <div class="order">
-            <div>
-                <div><p>Заказ</p><p>№ 4444444444</p></div>
-                <div><p>Статус</p><p>В сборке</p></div>
+            <div class="infoLine">
+                <div class="infoLine"><p>Заказ</p><p class="number">№ 4444444444</p></div>
+                <div class="infoLine"><p>Статус</p><p class="status">В сборке</p></div>
             </div>
-            <div><p>Сумма</p><p>4 444 Руб</p></div>
-            <div><a>отменить заказ</a></div>
+            <div class="infoLine"><p>Сумма</p><p class="cost">4 444 Руб</p></div>
+            <div class="infoLine"><a href="#" class="cancel">отменить заказ</a></div>
         </div>
     </div>
-    <div>
-        <a href="">удалить профиль</a>
+    <div class="container">
+        <a href="#" class="delete">удалить профиль</a>
     </div>
 </main>
 <footer>
