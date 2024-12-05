@@ -5,6 +5,9 @@ body{
     font-style: normal;
 }
 @media screen and (min-width: 480px){
+    .filterIcon{
+        width: 24px;
+    }
     .catalog {
         display: flex;
         flex-direction: column;

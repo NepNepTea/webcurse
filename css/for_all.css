@@ -36,6 +36,9 @@ a {text-decoration: none;}
         align-items: center;
         gap: 30px;
     }
+    .cart{
+        width: 40px;
+    }
     .logo {
         width: 253px;
         height: 90px;
