@@ -131,6 +131,9 @@ a {text-decoration: none;}
     .dropdown {
         display: none;
     }
+    .cartMobile{
+        display: none;
+    }
 }
 @media screen and (max-width: 480px) {
     .user{
