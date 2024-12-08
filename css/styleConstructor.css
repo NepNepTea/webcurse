@@ -12,31 +12,24 @@ body{
     }
     .components {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: end;
-        width: 1518px;
         margin-top: 42px;
         margin-bottom: 116px;
+        gap: 20px;
     }
     .singleComponent {
         border: 2px solid var(--text);
         border-radius: 10px;
-        width: 336px;
-        height: 336px;
+        width: 280px;
+        height: 280px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 26px;
+        gap: 20px;
     }
     .componentName {
-        background-color: var(--backColor);
-        font-size: 32px;
-        width: 82%;
-        border-radius: 10px;
-        text-align: center;
-    }
-    .productName {
         background-color: var(--backColor);
         font-size: 20px;
         width: 82%;
@@ -66,11 +59,11 @@ body{
     .addButton {
         border-bottom: 2px solid var(--accent);
         font-weight: 700;
-        font-size: 32px;
+        font-size: 20px;
         padding-bottom: 26px;
     }
     .constHeader {
-        width: 1570px;
+        width: 60vw;
         border-bottom: 2px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
@@ -79,7 +72,7 @@ body{
         font-size: 32px;
     }
     .product {
-        width: 136px;
+        width: 100px;
     }
     .costBlock{
         font-size: 32px;
@@ -101,7 +94,7 @@ body{
         align-items: center;
         color: #CF2727;
         background-color: #FFF8C5;
-        font-size: 32px;
+        font-size: 20px;
         gap: 60px;
     }
     .oneError{

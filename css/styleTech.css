@@ -5,6 +5,11 @@ body{
     font-style: normal;
 }
 @media screen and (min-width: 480px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .filterIcon{
         width: 24px;
     }
@@ -14,17 +19,14 @@ body{
         justify-content: space-between;
         align-items: center;
         gap: 36px;
-        margin-bottom: 116px;
     }
     .filter {
-        margin-top: 248px;
-        padding-right: 230px;
-        margin-bottom: 36px;
         display: flex;
         justify-content: right;
         align-items: center;
         gap: 19px;
         font-size: 16px;
+        width: 60vw;
     }
     .sort {
         display: flex;
@@ -38,7 +40,7 @@ body{
         gap: 36px;
     }
     .catalogHeader {
-        width: 1570px;
+        width: 60vw;
         border-bottom: 2px solid var(--border);
         padding-bottom: 20px;
         padding-left: 62px;
@@ -47,14 +49,14 @@ body{
     .card {
         border: 2px solid var(--border);
         border-radius: 10px;
-        width: 1460px;
+        width: 60vw;
         height: 450px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .cardName {
-        font-size: 32px;
+        font-size: 20px;
         border-bottom: 2px solid var(--border);
     }
     .brand {
@@ -62,7 +64,7 @@ body{
         height: 52px;
     }
     .price {
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 700;
         border-bottom: 2px solid var(--accent);
     }

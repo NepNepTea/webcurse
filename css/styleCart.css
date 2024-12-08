@@ -16,8 +16,8 @@ body{
     .finalBlock{
         border: 2px solid var(--border);
         border-radius: 10px;
-        width: 416px;
-        height: 318px;
+        width: 20vw;
+        height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -34,11 +34,11 @@ body{
         border-radius: 10px;
         display: flex;
         padding: 20px;
-        gap: 40px;
+        gap: 20px;
         justify-content: space-between;
     }
     .product{
-        width: 250px;
+        width: 180px;
     }
     .cartContent{
         display: flex;
@@ -52,7 +52,7 @@ body{
         padding: 10px;
     }
     .price{
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 700;
     }
     .section1{
@@ -66,6 +66,12 @@ body{
         flex-direction: column;
         justify-content: space-between;
         align-items: end;
+    }
+    .cardName{
+        font-size: 20px;
+    }
+    .trashIcon{
+        width: 30px;
     }
 }
 @media screen and (max-width: 480px) {

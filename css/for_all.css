@@ -125,8 +125,8 @@ a {text-decoration: none;}
         padding-left: 57px;
     }
     main {
-        margin-top: 230px;
-        margin-bottom: 116px;
+        padding-top: 230px;
+        padding-bottom: 116px;
     }
     .dropdown {
         display: none;
